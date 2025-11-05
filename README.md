@@ -46,4 +46,4 @@ A command-line tool to fetch and display the recent activity of a GitHub user.
 
 The script makes a request to the GitHub API endpoint `https://api.github.com/users/<username>/events`. The JSON response is then parsed and formatted for display.
 
-To improve performance, responses are cached in a local `.cache` directory for 10 minutes. The `.gitignore` file is configured to prevent this cache from being committed to version control.
+To improve performance, responses are cached in a local `.cache` directory for 10 minutes.
